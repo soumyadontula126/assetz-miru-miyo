@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Master Plan</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#efefef;
+      overflow-x:hidden;
+    }
+
+    .container{
+      width:100%;
+      min-height:100vh;
+      padding:40px 30px;
+      position:relative;
+    }
+
+    .title{
+      margin-bottom:40px;
+    }
+
+    .title h1{
+      font-size:58px;
+      font-weight:300;
+      color:#111;
+      margin-bottom:10px;
+    }
+
+    .title p{
+      font-size:22px;
+      color:#666;
+    }
+
+    .master-plan{
+      width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position:relative;
+    }
+
+    .master-plan img{
+      width:95%;
+      max-width:1400px;
+      object-fit:contain;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:768px){
+
+      .container{
+        padding:20px;
+      }
+
+      .title h1{
+        font-size:38px;
+      }
+
+      .title p{
+        font-size:16px;
+      }
+
+      .master-plan img{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="title">
+      <h1>Master Plan</h1>
+      <p>The blueprint to an artful life.</p>
+    </div>
+
+    <div class="master-plan">
+      <!-- YOUR IMAGE -->
+      <img src="masterplan.png" alt="Master Plan">
+    </div>
+
+  </div>
+
+</body>
+</html>
